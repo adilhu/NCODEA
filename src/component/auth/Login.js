@@ -12,13 +12,8 @@ function Login() {
       alert(e.message);
     });
   };
-  // const signInWithFacebook = () => {
-  //   auth.signInWithPopup(provider).catch((e) => {
-  //     alert(e.message);
-  //   });
-  // };
-
-  const handleSignIn = (e) => {
+  
+   const handleSignIn = (e) => {
     e.preventDefault();
 
     auth
@@ -55,7 +50,7 @@ function Login() {
           <p style={{ color: "royalblue", fontSize: "25px" }}>
             HandCrafted with ❤️ by{" "}
           </p>
-          <h3> yogesh</h3>
+          <h3>AdilHussain</h3>
         </div>
         <div className="login__auth">
           <div className="login__authOptions">
@@ -67,14 +62,7 @@ function Login() {
               />
               <p onClick={signIn}>Continue With Google</p>
             </div>
-            {/* <div className="login__authOption">
-              <img
-                className="login__googleAuth"
-                src="https://1000logos.net/wp-content/uploads/2016/11/Facebook-logo-500x350.png"
-                alt=""
-              />
-              <span onClick={signInWithFacebook}>Continue With Facebook</span>
-            </div> */}
+            
             <div className="login__authDesc">
               <p>
                 <span style={{ color: "blue", cursor: "pointer" }}>
@@ -123,18 +111,18 @@ function Login() {
           </div>
         </div>
         <div className="login__lang">
-          <p>हिन्दी</p>
+          <p>Email</p>
           <ArrowForwardIosIcon fontSize="small" />
         </div>
         <div className="login__footer">
           <p>About</p>
           <p>Languages</p>
-          <p>Careers</p>
+          <p>Opportunity</p>
           <p>Businesses</p>
-          <p>Privacy</p>
+          <p>security</p>
           <p>Terms</p>
           <p>Contact</p>
-          <p>&copy; Quora Fake Inc. 2021</p>
+          <p>&copy; NCODEA_AUTHORIZATION</p>
         </div>
       </div>
     </div>
